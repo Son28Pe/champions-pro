@@ -192,5 +192,6 @@
 
 | Fecha | Qué hice | Qué me costó | Racha 🔥 | Goles ⚽ |
 |---|---|---|---|---|
+| 22/10 | Previa: configuré Git, creé el repo y subí mi primer commit a GitHub (`init`, `add`, `commit`, `remote`, `push`) | El aviso LF/CRLF al hacer `git add`; la rama salió como `master` y la renombré a `main` | 0 | 0 |
 | 23/10 | | | 1 | 0 |
 | | | | | |

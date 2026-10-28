@@ -10,6 +10,20 @@ const anioFundacion = 1899;
 let titulosChampions = 5;
 let juegaEdicionActual = true;
 
+const equipo = {
+   nombre: "Barcelona",
+   pais: "España",
+   estadio: "Camp Nou",
+   anioFundacion: 1899,
+   titulosChampions: 5,
+   pj: 8,
+   pg: 6,
+   pe: 2,
+   pp: 0,
+   gf: 20,
+   gc: 10,
+};
+
 
 console.log(typeof nombreEquipo); // string
 console.log(typeof pais); // string
@@ -28,6 +42,23 @@ function calcularFundado(anioFundacion) {
    return aniosDesdeFundacion;
 
 }
-fundacion.innerHTML = 
-`<h1> FC BARCELONA </h1> 
-<p> El equipo ${nombreEquipo} tiene ${titulosChampions} títulos de la Champions League y lleva <b>${calcularFundado(anioFundacion)} años de existencia.</b></p>`;
+
+// calcular puntos del equipo
+function calcularPuntos(equipo) {
+   return equipo.pg * 3 + equipo.pe;
+}
+// diferencia de goles
+function diferenciaGoles(equipo) {
+   return equipo.gf - equipo.gc;
+}
+
+
+fundacion.innerHTML =
+   `<h1> FC BARCELONA </h1> 
+<p> El equipo ${equipo.nombre} tiene ${equipo.titulosChampions} títulos de la Champions League y lleva
+ <b>${calcularFundado(equipo.anioFundacion)} años de existencia.</b></p>
+<p> El equipo ha obtenido <b>${calcularPuntos(equipo)} puntos</b> en la temporada actual.</p>
+<p> La diferencia de goles es <b>${diferenciaGoles(equipo)}</b>.</p>`;
+
+
+

@@ -71,19 +71,19 @@
 
 ## 🏁 Pretemporada · 23–25 oct
 
-- [ ] **Vie 23** · Cómo se conectan HTML, CSS y JS; `console.log`; Git básico (`init`, `add`, `commit`, `push`).
+- [x] **Vie 23** · Cómo se conectan HTML, CSS y JS; `console.log`; Git básico (`init`, `add`, `commit`, `push`).
   → Creas el repo y la carpeta `v1-web/` y la abres con Live Server.
-- [ ] **Sáb 24** · Variables (`let`, `const`), tipos y template literals.
+- [x] **Sáb 24** · Variables (`let`, `const`), tipos y template literals.
   → Tarjeta de tu equipo favorito con `innerHTML`.
-- [ ] **Dom 25** · Objetos.
+- [x] **Dom 25** · Objetos.
   → Objeto `equipo` con `{ nombre, pais, pj, pg, pe, pp, gf, gc }`; muestras puntos y DG.
   → ⚽ **Gol 0: primera tarjeta con datos calculados.**
 
 ## ⚽ Jornada 1 · 26 oct–1 nov
 *Funciones, condicionales, arrays y bucles*
 
-- [ ] **Lun 26** · Funciones con `return` → `calcularPuntos(equipo)` y `diferenciaGol(equipo)`.
-- [ ] **Mar 27** · `if/else`, `===`, ternario → `zona(posicion)`: octavos, play-off o eliminado.
+- [x] **Lun 26** · Funciones con `return` → `calcularPuntos(equipo)` y `diferenciaGol(equipo)`.
+- [x] **Mar 27** · `if/else`, `===`, ternario → `zona(posicion)`: octavos, play-off o eliminado.
 - [ ] **Mié 28** · Arrays: `length`, `push`, índices → array con 6 equipos de prueba.
 - [ ] **Jue 29** · Bucles `for` y `for...of` → una fila por equipo en una `<table>`.
 - [ ] **Vie 30** · Funciones flecha y `forEach` → refactor con `crearFila(equipo)`.
@@ -195,4 +195,5 @@
 | 22/10 | Previa: configuré Git, creé el repo y subí mi primer commit a GitHub (`init`, `add`, `commit`, `remote`, `push`) | El aviso LF/CRLF al hacer `git add`; la rama salió como `master` y la renombré a `main` | 0 | 0 |
 | 24/10 | Archivos base de `v1-web/` (`index.html`, `styles.css`, `script.js`), header con logo de la Champions, variables (`let`, `const`), `typeof`, template literals y primera tarjeta del Barça con `innerHTML` | _(por completar)_ | 1 | 0 |
 | 28/10 | Objeto `equipo` con `{ pj, pg, pe, pp, gf, gc }` y funciones con `return`: `calcularPuntos(equipo)` y `diferenciaGoles(equipo)`; la tarjeta muestra puntos y DG | _(por completar)_ | 2 | 1 (Gol 0 ✅) |
+| 02/11 | `zona(posicion)` con `if / else if / else` (octavos, play-off, eliminado) y ternario con `===` para mostrar si el equipo está invicto; ambos en la tarjeta | _(por completar)_ | 3 | 1 |
 | | | | | |

@@ -193,5 +193,6 @@
 | Fecha | Qué hice | Qué me costó | Racha 🔥 | Goles ⚽ |
 |---|---|---|---|---|
 | 22/10 | Previa: configuré Git, creé el repo y subí mi primer commit a GitHub (`init`, `add`, `commit`, `remote`, `push`) | El aviso LF/CRLF al hacer `git add`; la rama salió como `master` y la renombré a `main` | 0 | 0 |
-| 23/10 | | | 1 | 0 |
+| 24/10 | Archivos base de `v1-web/` (`index.html`, `styles.css`, `script.js`), header con logo de la Champions, variables (`let`, `const`), `typeof`, template literals y primera tarjeta del Barça con `innerHTML` | _(por completar)_ | 1 | 0 |
+| 28/10 | Objeto `equipo` con `{ pj, pg, pe, pp, gf, gc }` y funciones con `return`: `calcularPuntos(equipo)` y `diferenciaGoles(equipo)`; la tarjeta muestra puntos y DG | _(por completar)_ | 2 | 1 (Gol 0 ✅) |
 | | | | | |

@@ -54,8 +54,10 @@ Plan día por día con checklist: [ROADMAP.md](ROADMAP.md)
 - No uses temas que aún no vi según el plan.
 
 ## Estado actual
-- **Día del plan:** Vie 23 oct · Fase 0 (aún no empiezo)
-- **Racha:** 0 días · **Goles:** 0 / 9
-- **Lo último que hice:** -
-- **Lo que me costó:** -
-- **Próximo paso:** crear el repo en GitHub y mi primer `index.html`
+- **Día del plan:** Lun 2 nov en el calendario (Jornada 2) · en realidad voy en **Mar 27** (Fase 1, Jornada 1)
+- **Racha:** 2 días estudiados (24 y 28 oct; el 22 fue la previa) · **Goles:** 1 / 9 (Gol 0 ✅)
+- **Lo último que hice:**
+  - 24 oct: archivos base (`index.html`, `styles.css`, `script.js`), header con logo, variables, `typeof`, template literals y primera tarjeta con `innerHTML`.
+  - 28 oct: objeto `equipo` con `{ pj, pg, pe, pp, gf, gc }` y funciones `calcularPuntos(equipo)` y `diferenciaGoles(equipo)`; la tarjeta muestra puntos y DG → **Gol 0**.
+- **Lo que me costó:** _(por completar)_
+- **Próximo paso:** `zona(posicion)` con `if/else` y ternario (Mar 27); después arrays con 6 equipos (Mié 28).
